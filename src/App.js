@@ -1,7 +1,13 @@
+import Calculator from "./components/Calculator/Calculator";
+import Counter from "./components/Counter/Counter";
+import Todos from "./components/Todos/Todos";
+
 function App() {
   return (
     <div className="App">
-      hello world
+      <Counter/>
+      <Todos/>
+      <Calculator/>
     </div>
   );
 }
