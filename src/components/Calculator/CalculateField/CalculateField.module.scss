@@ -1,0 +1,12 @@
+.CalculateField {
+  font-size: 20px;
+  display: inline-block;
+  margin: .5rem;
+  & button {
+    margin: .5rem;
+    font-size: 18px;
+  }
+}
+.conclution {
+  font-size: 18px;
+}
