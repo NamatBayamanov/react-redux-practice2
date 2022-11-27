@@ -10,6 +10,7 @@ export const fetchTodo = createAsyncThunk(
       }
       const data = responce.json();
       return data;
+      
     } catch (error) {
       console.log(error.message);
       return rejectWithValue(error.message);
